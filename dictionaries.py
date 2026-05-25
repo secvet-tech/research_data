@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 #we create our dictionary
-classic_rock = {"AC/DC", "Black Sabbath", "Fleetwood Mac"}
-rap = {"Run The Jewel", "T.I.", "Aesop Rock"}
-#we bind the 2 with union
-some_artists = classic_rock.union(rap)
+books = {"IT":"Stephen King", "1984":"George Orwell"}
 #we print
-print(some_artists)
+print(books.keys())
+print(books.values())
+print("The Running Man" in books)
