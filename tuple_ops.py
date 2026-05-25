@@ -10,3 +10,6 @@ print(all_members)
 og_members = names_members + (datetime.datetime.now().isoformat(),)
 #print
 print(og_members)
+#next extract author
+author_tuple = names_members[2]
+print(author_tuple)
